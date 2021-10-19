@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.logo{  
+    margin-left:40%;
+}
+.arama{
+    text-align: center;
+    width: 862px;
+    height: 62px;
+    background-color: rgb(238, 238, 238);
+    margin-bottom: 3px;
+}
+
+.ilkkutu{
+    width: 318px;
+    height: 76px;
+    text-align: center;
+    background-color: rgb(126, 229, 218);
+    padding-top: 5px;
+    display: table-cell;
+    
+
+}
+.ilkkutu p{
+    margin: 2px;
+    font-size: 16px;
+   
+
+}
+.ortakutu{
+    width: 176px;
+    height: 76px;
+    text-align: center;
+    background-color: #70CCC2;
+    display: table-cell;
+    border-left:2px solid white;
+    border-right:2px solid white;
+}
+.ortakutu p, .sonkutu p{
+    margin: 2px;
+    font-size: 13px;
+}
+.sonkutu{
+    width: 364px;
+    height: 74px;
+    text-align: center;
+    background-color: #62B3AA;
+    display: table-cell;
+   
+}
+
+</style> <!--CSS kullamadan stillerin ayarlandığı bölüm -->
+<body>
+<img src="../Google Ana Sayfası/img/google.jpg" class="logo" alt=""> <!--Logo eklendi -->
+
+<center>   <!-- Search ve kutuların ortalanması için gereken kod -->
+<div class="anakutu" >
+
+    <div class="arama">
+   
+    Search the web using Google!
+    <br>
+    <input type="text" name="q" value="" size="40"> <!--Yazma kutusunun eklenmesi -->
+    <br>
+    <input type="submit" value="Google Search"> 
+    <input type="submit" value="I'm feeling lucky"> <!--Buttonların eklenmesi -->
+</div>
+
+
+<div class="ilkkutu"> <!--Soldan ilk kutunun iç yazıları -->
+<p >Special Searches</p>
+<p>Stanford Search</p>
+<p>Linux Search</p>
+
+</div>
+<div class="ortakutu"> <!--Ortadaki kutunun yazıları -->
+<p>Help!</p>
+<p>About Google!</p>
+<p>Company Info</p>
+<p>Google! Logos</p>
+</div>
+<div class="sonkutu"> <!--Son kutunun yazıları -->
+<p>Get Google!</p>
+<p> updates monthly: </p>
+<input type="text" value="your e-mail"> <!--Yazma kutusunun eklenmesi -->
+<br>
+<input type="submit" value="Subscribe"> <!--Buttonların eklenmesi -->
+Archive
+</div>
+</div>
+<p>Copyright ©1998 Google Inc.</p>
+</center>
+</body>
+</html>
